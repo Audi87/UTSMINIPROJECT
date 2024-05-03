@@ -1,0 +1,113 @@
+body {
+    background-image: url('https://www.shutterstock.com/image-photo/blurred-dealership-store-cars-soft-600nw-345362450.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0) rotate(0deg) scale(1); }
+    25% { transform: translateX(-5px) rotate(2deg) scale(1.05); }
+    50% { transform: translateX(5px) rotate(-2deg) scale(0.95); }
+    75% { transform: translateX(-2px) rotate(1deg) scale(1.02); }
+    100% { transform: translateX(0) rotate(0deg) scale(1); }
+}
+
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    animation: shake 0.5s ease infinite;
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: #666666;
+    transform: scale(1.02);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.card {
+    border: none;
+    transition: box-shadow 0.3s, transform 0.2s;
+    position: relative;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+h4, label, h2, .bi-person-circle {
+    color: #000;
+}
+
+
+.btn1, .btn2 {
+    background-color: transparent;
+    border: 2px solid #2c2924;
+    color: #533d00;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 15px 30px;
+}
+
+.btn2 {
+    padding: 10px 20px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.btn-outline-dark {
+    color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-outline-dark:hover {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.card-transparent {
+    background: rgba(158, 158, 158, 0.5);
+}
+
+.card-small {
+    width: 500px;
+    height: 500px;
+}
+.table-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+.table-dark-transparent thead th {
+    color: #575757;
+    border-color: #494949;
+}
+
+.table-dark-transparent tbody td {
+    color: #575757;
+    border-color: #3f3f3f;
+}
