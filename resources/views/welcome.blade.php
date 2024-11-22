@@ -61,7 +61,7 @@
                         <img class="img-fluid mb-4 rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJe0P-Ge3wu06ozclVWxRcy6cuWLFRNHShvVht_GX1Cw&s" alt="Car Image">
                     </div>
                     <h2 class="car-title">AutoMart Exclusive Edition</h2>
-                    <p class="car-brand">By Audi</p>
+                    <p class="car-brand">By Auditya</p>
                     <p class="car-description">Introducing the new AutoMart Exclusive Edition by BMW. This luxurious sedan combines cutting-edge technology with unparalleled comfort. With its sleek design and powerful performance, the AutoMart Exclusive Edition redefines driving experience. Explore the ultimate luxury today!</p> <!-- changed description -->
                     <a href="{{ route('home') }}" class="btn btn-primary btn-lg">Discover More</a>
                 </div>
